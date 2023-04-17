@@ -1,22 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const [reverse, setReverse] = useState('App-logo');
+
+  function reverseIcon() {
+    const newSide = (reverse === 'App-logo') ? 'App-logo-reverse' : 'App-logo';
+    setReverse(newSide);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} className={reverse} alt="logo" />
+        <button onClick={reverseIcon}>Reverse</button>
       </header>
     </div>
   );
