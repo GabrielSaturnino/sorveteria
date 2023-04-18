@@ -9,7 +9,6 @@ export default function Inicial({ conteudo }) {
 
   return (
     <>
-      <AppBar />
       <Banner
         title={title}
         banner={banner} />
@@ -24,7 +23,6 @@ export default function Inicial({ conteudo }) {
               opções sem lactose e sem açúcar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudável ao mesmo tempo!</p>
           </section>
         </div>
-
         <div className="row-container reverse">
           <img src="./assets/eventos-image.jpg" alt="eventos" />
           <section className='inicial-conteudo'>
@@ -36,7 +34,6 @@ export default function Inicial({ conteudo }) {
               Venha nos conhecer e passar um tempo aqui com a gente.</p>
           </section>
         </div>
-
         <div className="row-container">
           <img src="./assets/sobre-image.jpg" alt="sobre" />
           <section className='inicial-conteudo'>

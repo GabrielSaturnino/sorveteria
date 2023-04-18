@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Inicial from '../../paginas/Inicial';
 import Sabores from '../../paginas/Sabores';
 import Sobre from '../../paginas/Sobre';
+import AppBar from '../AppBar';
 
 
 const pagesContent = [
@@ -13,6 +14,7 @@ const pagesContent = [
 
 const Rotas = () => (
   <BrowserRouter>
+    <AppBar />
     <Routes>
       <Route exact path='/' element={<Inicial conteudo={pagesContent[0]} />}></Route>
       <Route path='/sabores' element={<Sabores />} />

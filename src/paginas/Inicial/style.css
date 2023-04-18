@@ -1,8 +1,10 @@
 .row-container {
   display: flex;
   justify-content: center;
+  width: 100%;
   height: 75vh;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .reverse {
@@ -17,6 +19,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.row-container img {
+  width: 50%;
 }
 
 .inicial-conteudo p {
@@ -36,10 +42,6 @@
   font-size: 1.2em;
   margin-top: -10px;
   font-style: italic;
-}
-
-.row-container img {
-  width: 50%;
 }
 
 @media screen and (max-width: 798px) {
