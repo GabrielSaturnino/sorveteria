@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
-import Rotas from './componentes/Rotas';
+import Rotas from './componentes/Rotas'
+import AppBar from './componentes/AppBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Rotas />
-      </header>
+      <Rotas />
     </div>
   );
 }

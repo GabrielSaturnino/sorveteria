@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Inicial from '../Inicial';
-import Sabores from '../Sabores';
-import Sobre from '../Sobre';
+import Inicial from '../../paginas/Inicial';
+import Sabores from '../../paginas/Sabores';
+import Sobre from '../../paginas/Sobre';
 
-export default function Rotas() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path='/' element={<Inicial />}></Route>
-        <Route path='sabores' element={<Sabores />}></Route>
-        <Route path='sobre' element={<Sobre />}></Route>
-      </Routes>
-    </BrowserRouter>
-  );
-}
+const Rotas = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route exact path='/' element={<Inicial />}></Route>
+      <Route path='/sabores' element={<Sabores />} />
+      <Route path='/sobre' element={<Sobre />} />
+    </Routes>
+  </BrowserRouter>
+);
+
+export default Rotas;
