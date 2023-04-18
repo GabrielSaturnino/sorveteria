@@ -13,8 +13,6 @@ const AppBar = () => (
         <Link className='links' to='/sobre'>Sobre</Link>
       </nav>
     </header>
-
-    <Banner />
   </>
 );
 

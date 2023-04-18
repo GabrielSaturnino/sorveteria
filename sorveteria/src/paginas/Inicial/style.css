@@ -1,0 +1,8 @@
+.img-banner {
+  height: 100vh;
+  background-image: url('../../../public/assets/banner-home.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #F9DB79;
+}

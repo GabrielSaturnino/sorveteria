@@ -4,10 +4,17 @@ import Inicial from '../../paginas/Inicial';
 import Sabores from '../../paginas/Sabores';
 import Sobre from '../../paginas/Sobre';
 
+
+const pagesContent = [
+  { title: 'SORVETE ARTESANAL', banner: './assets/banner-home.png' },
+  {},
+  {}
+];
+
 const Rotas = () => (
   <BrowserRouter>
     <Routes>
-      <Route exact path='/' element={<Inicial />}></Route>
+      <Route exact path='/' element={<Inicial conteudo={pagesContent[0]} />}></Route>
       <Route path='/sabores' element={<Sabores />} />
       <Route path='/sobre' element={<Sobre />} />
     </Routes>

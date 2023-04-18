@@ -1,7 +1,17 @@
 .img-banner {
   height: 100vh;
+  background: #F9DB79;
+  /* background-image: url('../../../public/assets/banner-home.png'); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: ulr('./assets/banner-home.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-banner h1 {
+  color: white;
+  font-size: 5em;
+  text-shadow: 2px 2px black;
 }

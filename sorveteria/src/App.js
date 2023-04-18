@@ -1,11 +1,12 @@
 import './App.css';
-import Rotas from './componentes/Rotas'
-import AppBar from './componentes/AppBar';
+import Rotas from './componentes/Rotas';
+import Footer from './componentes/Footer';
 
 function App() {
   return (
     <div className="App">
       <Rotas />
+      <Footer />
     </div>
   );
 }
