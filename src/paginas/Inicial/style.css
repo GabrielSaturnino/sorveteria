@@ -1,10 +1,8 @@
-main {
-  margin: auto;
-}
-
 .row-container {
   display: flex;
   justify-content: center;
+  height: 75vh;
+  flex-wrap: wrap;
 }
 
 .reverse {
@@ -13,15 +11,15 @@ main {
 
 .inicial-conteudo {
   display: flex;
-  height: 68vh;
-  width: 100%;
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.inicial-conteudo p, .inicial-conteudo-terceiro p {
+.inicial-conteudo p {
   width: 60%;
   margin-top: 30px;
   font-size: 0.84em;
@@ -29,12 +27,12 @@ main {
   line-height: 20px;
 }
 
-.inicial-conteudo h1, .inicial-conteudo-terceiro h1 {
+.inicial-conteudo h1 {
   font-size: 2em;
   text-transform: uppercase;
 }
 
-.inicial-conteudo h3, .inicial-conteudo-terceiro h3 {
+.inicial-conteudo h3 {
   font-size: 1.2em;
   margin-top: -10px;
   font-style: italic;
@@ -42,20 +40,7 @@ main {
 
 .row-container img {
   width: 50%;
-  
-}
-.row-container-terceiro {
-  display: flex;
 }
 
-.row-container-terceiro img {
-  width: 50%;
-}
-
-.inicial-conteudo-terceiro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40vw;
+@media screen and (max-width: 798px) {
 }
