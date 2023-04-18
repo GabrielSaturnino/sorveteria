@@ -1,8 +1,51 @@
-.img-banner {
-  height: 100vh;
-  background-image: url('../../../public/assets/banner-home.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-color: #F9DB79;
+main {
+  margin: auto;
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.inicial-conteudo {
+  display: flex;
+  height: 68vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicial-conteudo p {
+  width: 60%;
+  margin-top: 30px;
+}
+
+.row-container img {
+  width: 50%;
+  
+}
+.row-container-terceiro {
+  display: flex;
+}
+
+.row-container-terceiro img {
+  width: 50%;
+}
+
+.inicial-conteudo-terceiro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.inicial-conteudo-terceiro p {
+  margin-top: 30px;
 }

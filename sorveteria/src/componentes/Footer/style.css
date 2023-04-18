@@ -9,7 +9,8 @@ footer {
   height: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 100px;
+  justify-content: center;
   align-items: center;
 }
 
