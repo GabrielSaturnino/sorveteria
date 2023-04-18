@@ -1,12 +1,15 @@
 header {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  background-color: #F9DB79;
+  padding: 25px;
 }
 
 header nav .links {
-  margin-right: 20px;
+  margin-right: 40px;
   text-decoration: none;
   font-weight: bold;
-  color: white;
+  color: black;
 }
