@@ -3,6 +3,6 @@ import AppBar from '../../componentes/AppBar';
 
 export default function Sabores() {
   return (
-    <h1>Salve</h1>
+    <h1>Salve Alfajor</h1>
   );
 }
