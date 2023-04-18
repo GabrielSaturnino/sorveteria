@@ -21,9 +21,23 @@ main {
   justify-content: center;
 }
 
-.inicial-conteudo p {
+.inicial-conteudo p, .inicial-conteudo-terceiro p {
   width: 60%;
   margin-top: 30px;
+  font-size: 0.84em;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.inicial-conteudo h1, .inicial-conteudo-terceiro h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.inicial-conteudo h3, .inicial-conteudo-terceiro h3 {
+  font-size: 1.2em;
+  margin-top: -10px;
+  font-style: italic;
 }
 
 .row-container img {
@@ -44,8 +58,4 @@ main {
   justify-content: center;
   align-items: center;
   width: 40vw;
-}
-
-.inicial-conteudo-terceiro p {
-  margin-top: 30px;
 }
